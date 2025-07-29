@@ -21,7 +21,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin:"http://localhost:3000",
+        origin: process.env.FRONTEND_URL ? 
+            [process.env.FRONTEND_URL, "http://localhost:3000"] : 
+            ["http://localhost:3000", "https://edspire-frontend-five.vercel.app"],
         credentials:true,
     })
 )
