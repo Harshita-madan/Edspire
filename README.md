@@ -10,20 +10,20 @@ Frontend: React.js, Tailwind CSS, Redux Toolkit, React Router, Figma (UI/UX desi
 Backend: Node.js, Express.js, MongoDB & Mongoose, JWT (Authentication), Bcrypt (Password hashing), Cloudinary (Media handling)  
 
 ## Features
-For Students:
+For Students:  
 => Browse and purchase courses  
 => View and study course content of purchased courses  
 => Wishlist & cart management  
 => Rate and review courses  
 => Edit personal profile  
   
-For Instructors:
+For Instructors:  
 => Instructor dashboard  
 => Course creation & editing tools  
 => Upload video and content  
 => View course analytics  
   
-For Admin (Future Scope):
+For Admin (Future Scope):  
 => Create Categories  
 => Manage users & instructors  
 => Platform insights dashboard  
