@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .swiper-pagination-bullet {
+  background-color: rgb(221, 17, 17); 
+}  */
+
+.swiper-pagination-bullet {
+  background-color: rgb(246, 242, 242); /* default color for all */
+}
+
+
+.swiper-pagination {
+  bottom: 0px !important; /* Push bullets downward */
+}
