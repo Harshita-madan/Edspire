@@ -1,4 +1,5 @@
-const BASE_URL = process.env.REACT_APP_BASE_BACKEND_URL || "https://edspire-s6vn.onrender.com/api/v1"
+const BASE_URL = process.env.REACT_APP_BASE_BACKEND_URL;
+
 // AUTH ENDPOINTS
 export const endpoints = {
   SENDOTP_API: BASE_URL + "/auth/sendotp",
