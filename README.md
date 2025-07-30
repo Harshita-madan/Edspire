@@ -1,31 +1,44 @@
-# React & Tailwind CSS Starter Pack
+# EDSPIRE : A FULL STACK ED-TECH PLATFORM
+A full-stack MERN-based ed-tech platform enabling users to learn, teach, and grow through seamless educational content creation and consumption.
+Live Link : https://edspire-three.vercel.app/
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+# Project Overview
+EDSPIRE is a fully functional and scalable EdTech web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). Inspired by modern learning platforms, EDSPIRE allows instructors to publish, manage, and monetize courses, while learners can explore, enroll, and learn through interactive content.
 
-## Usage
+#  Tech Stack
+Frontend: React.js, Tailwind CSS, Redux Toolkit, React Router, Figma (UI/UX design)  
+Backend: Node.js, Express.js, MongoDB & Mongoose, JWT (Authentication), Bcrypt (Password hashing), Cloudinary (Media handling)  
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## Features
+For Students:  
+=> Browse and purchase courses  
+=> View and study course content of purchased courses  
+=> Wishlist & cart management  
+=> Rate and review courses  
+=> Edit personal profile  
+  
+For Instructors:  
+=> Instructor dashboard  
+=> Course creation & editing tools  
+=> Upload video and content  
+=> View course analytics  
+  
+For Admin (Future Scope):  
+=> Create Categories  
+=> Manage users & instructors  
+=> Platform insights dashboard  
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+# System Architecture
+EDSPIRE follows a classic client-server model with:  
+Frontend (Client): Built in React, communicates via REST API  
+Backend (Server): Node.js with Express, handles authentication, business logic, and database communication  
+Database: MongoDB (NoSQL)  
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
-
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
-
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+# Deployment
+Vercel : Host frontend (React)    
+Render / Railway : Host backend (Node.js)  
+MongoDB Atlas :	Cloud database    
+Cloudinary : Media storage (videos, images, docs)  
 
 ## Contributing
-
 Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
